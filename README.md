@@ -6,7 +6,7 @@ npm install
 npm install nodemon 
 nodemon server.js 
 ```
-
+npm install ile package.json içerisindeki bütünv verileri yüklüyor sisteme ancak ek olarak nodemon'u yüklerseniz dosya üzerinde değişikilik yaparken kullanması daha rahat olur . 
 ```
 app.get('/', function(req, res) {
      var row = [];
