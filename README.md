@@ -1,6 +1,6 @@
 # simple.node.mysql 
 ### nodejs ile mysql kullanarak standart ekleme , çıkarma , güncelleme gibi işlemleri .
-![alt tag](http://s15.postimg.org/n4wpga23f/localhost.png)
+![alt tag](http://s28.postimg.org/q7zi4puu5/localhost.png)
 
 ```
 npm install
