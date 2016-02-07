@@ -7,8 +7,24 @@ npm install nodemon
 nodemon server.js 
 ```
 
-
-
+```
+app.get('/', function(req, res) {
+     var row = [];
+     connection.query('select * from kullanicilar', function (err, rows) {
+        if (err) {
+            console.log(err);
+        } else {
+            if (rows.length) {
+                for (var i = 0, len = rows.length; i < len; i++) {
+                    row[i] = rows[i];
+                }  
+            }
+        }
+        res.render('index.ejs', {rows : row });
+        })
+    });
+```
+sql queryi yapıp kullanıcılar tablosundaki verilerin hepsini rows listesine atıp index.ejs ye gönderiyor . 
 
 ```
 app.post('/ekle',function(req,res){
