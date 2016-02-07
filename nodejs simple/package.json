@@ -1,0 +1,29 @@
+{
+  "name": "simple-node",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafa05deniz/simple-node-mysql.git"
+  },
+  "keywords": [
+    "1"
+  ],
+  "author": "1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafa05deniz/simple-node-mysql/issues"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "body-parser":"*",
+    "express": "*",
+    "mysql": "*"
+
+  }
+}
